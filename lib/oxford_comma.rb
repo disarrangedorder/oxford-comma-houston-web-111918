@@ -9,6 +9,10 @@ def oxford_comma(array)
     last_entry = array.pop #
     last_entry.toString()
     last_entry  = "and #{lastentry}."
+
+    join_last_entry << array.push(last_entry)
+    new_string = array.join(", ")
+
   end
   return new_string
 
