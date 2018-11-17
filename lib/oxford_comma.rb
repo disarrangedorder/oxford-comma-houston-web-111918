@@ -8,6 +8,8 @@ def oxford_comma(array)
     last_entry.join(array.pop) # [converts last element to string]
     last_entry  = "and #{lastentry}."
     join_last_entry = array.push(last_entry)
-    array.join(", ")
+    new_string = array.join(", ")
+  end
+  return new_string
 
 end
